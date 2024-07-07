@@ -10,5 +10,4 @@ $routes->get('/', 'Home::index');
 // $routes->get('/test', 'Test::index');
 
 $routes->get('task', 'TaskController::index');
-$routes->get('layouting', 'TaskController::layout');
-$routes->get('Xrie-bio', 'TaskController::layout_kedua');
+$routes->get('Xrie-drie', 'TaskController::layout');

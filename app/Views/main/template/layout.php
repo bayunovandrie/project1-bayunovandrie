@@ -1,47 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Templating Layout</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Index - iPortfolio Bootstrap Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="<?= base_url('assets/img/favicon.png') ?>" rel="icon">
+    <link href="<?= base_url('assets/img/apple-touch-icon.png') ?>" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/vendor/bootstrap-icons/bootstrap-icons.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/vendor/aos/aos.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/vendor/glightbox/css/glightbox.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/vendor/swiper/swiper-bundle.min.css') ?>" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="<?= base_url('assets/css/main.css') ?>" rel="stylesheet">
 </head>
 
-<style>
-body {
-    background-color: black;
-    color: white;
-}
-</style>
+<body class="index-page">
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="#">Xdrie</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?= base_url('layouting') ?>">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('Xrie-bio') ?>">Bio</a>
-                    </li>
+    <header id="header" class="header dark-background d-flex flex-column">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
 
-                </ul>
-            </div>
+        <div class="profile-img">
+            <img src="assets/img/1670935145350.jfif" alt="" class="img-fluid rounded-circle">
         </div>
-    </nav>
+
+        <?= $this->include('main/partial/sidebar') ?>
+
+    </header>
 
     <?= $this->renderSection('content') ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights
+                        Reserved</span></p>
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="<?= base_url('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/php-email-form/validate.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/aos/aos.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/typed.js/typed.umd.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/purecounter/purecounter_vanilla.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/waypoints/noframework.waypoints.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/glightbox/js/glightbox.min.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/isotope-layout/isotope.pkgd.min.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/swiper/swiper-bundle.min.js') ?>"></script>
+
+    <!-- Main JS File -->
+    <script src="<?= base_url('assets/js/main.js') ?>"></script>
+
 </body>
 
 </html>

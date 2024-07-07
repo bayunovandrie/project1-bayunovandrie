@@ -33,10 +33,5 @@ class TaskController extends BaseController
     {
         return view('main/task/page_layout');
     }
-    public function layout_kedua()
-    {  
-
-        return view('main/task/page_layout_kedua');
-    }
 
 }
