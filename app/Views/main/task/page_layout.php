@@ -22,10 +22,9 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>About</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <h2>About Me</h2>
+            <p>Hi, Nama Saya Bayu Novandrie Saputra
+            </p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -147,9 +146,9 @@
                 <div class="col-lg-6">
 
                     <div class="progress">
-                        <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                        <span class="skill"><span>HTML</span> <i class="val">80%</i></span>
                         <div class="progress-bar-wrap">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div><!-- End Skills Item -->
@@ -510,84 +509,7 @@
     </section><!-- /Portfolio Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Services</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-                    <div>
-                        <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
-                    </div>
-                </div>
-                <!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-                    <div>
-                        <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a>
-                        </h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat tarad limino ata</p>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-                    <div>
-                        <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut
-                                perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur</p>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                    <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-                    <div>
-                        <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a>
-                        </h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum</p>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-                    <div>
-                        <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum deleniti atque</p>
-                    </div>
-                </div><!-- End Service Item -->
-
-                <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-                    <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-                    <div>
-                        <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a>
-                        </h4>
-                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-                            tempore, cum soluta nobis est eligendi</p>
-                    </div>
-                </div><!-- End Service Item -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Services Section -->
+    <!-- /Services Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section light-background">
@@ -731,7 +653,7 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h3>Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Jln Surya Kencana gg kemuning 1</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -739,7 +661,7 @@
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>0856234567</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -747,14 +669,14 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <p>bayunovandrie182@gmail.com</p>
                             </div>
                         </div><!-- End Info Item -->
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                            frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d17938.072729715353!2d106.72105565042959!3d-6.3470050590385645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sid!2sid!4v1721305515083!5m2!1sid!2sid"
+                            width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
